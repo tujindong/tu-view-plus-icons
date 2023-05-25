@@ -10,7 +10,8 @@
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json --max-warnings 0",
     "lint:fix": "eslint --fix . --ext .vue,.js,.ts,.jsx,.tsx,.json --max-warnings 0",
     "format": "prettier --write . && pnpm run -C ./packages/svg optimize",
-    "release": "bumpp -r"
+    "release": "bumpp -r",
+    "publish": "pnpm run -C ./packages/vue publish && pnpm run -C ./packages/svg publish"
   },
   "devDependencies": {
     "bumpp": "^9.0.0",

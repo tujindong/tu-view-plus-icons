@@ -17,7 +17,8 @@
     "*.svg"
   ],
   "scripts": {
-    "optimize": "svgo -f . -o ."
+    "optimize": "svgo -f . -o .",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "svgo": "^3.0.2"
