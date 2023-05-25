@@ -1,0 +1,25 @@
+{
+  "name": "@tu-view-plus/icons-svg",
+  "version": "1.0.0",
+  "description": "SVG icon for TuView Plus Icons collection.",
+  "keywords": [
+    "icon",
+    "svg",
+    "tu-view-plus"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tujindong/tu-view-plus-icons.git",
+    "directory": "packages/svg"
+  },
+  "files": [
+    "*.svg"
+  ],
+  "scripts": {
+    "optimize": "svgo -f . -o ."
+  },
+  "devDependencies": {
+    "svgo": "^3.0.2"
+  }
+}
